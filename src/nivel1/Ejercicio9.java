@@ -5,43 +5,35 @@ public class Ejercicio9 {
 	// REVISEN los metodos de la clase String!
 	
 	public static int longString(String s) {
-		// TODO
-		return 0;
+		return s.length();
 	}
 	
 	public static String getPalabra(String s, int desde, int hasta) {
-		// TODO
-		return null;
+		return s.substring(desde,hasta);
 	}
 	
 	public static String sacarEspaciosFinales(String s) {
-		// TODO
-		return null;
+		return s.trim();
 	}
 	
 	public static String concatenarStrings1(String s1, String s2) {
-		// TODO
-		return null;
+		return s1 + s2;
 	}
 	
 	public static String concatenarStrings2(String s1, String s2) {
-		// TODO
-		return null;
+		return s1.concat(s2);
 	}
 	
 	public static boolean estaVacio(String s) {
-		// TODO
-		return false;
+		return s.isEmpty();
 	}
 		
 	public static String[] separarPorComa(String s) {
-		// TODO
-		return null;
+		return s.split(",");
 	}
 	
 	public static String todoMayuscula(String s) {
-		// TODO
-		return null;
+		return s.toUpperCase();
 	}
 	
 	
