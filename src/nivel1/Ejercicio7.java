@@ -3,7 +3,14 @@ package nivel1;
 public class Ejercicio7 {
 
 	public static boolean esVocal(char x) {
-		// TODO
+		switch (x) {
+			case 'a':
+			case 'e':
+			case 'i':
+			case 'o':
+			case 'u':
+				return true;
+		}
 		return false;
 	}
 	

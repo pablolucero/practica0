@@ -3,8 +3,8 @@ package nivel1;
 public class Ejercicio8 {
 	
 	public static boolean esCapicua(int x) {
-		// TODO
-		return false;
+		final String numeroInvertido = new StringBuilder().append(x).reverse().toString();
+		return (Integer.toString(x).equals(numeroInvertido));
 	}
 	
 	public static void main(String[] args) {

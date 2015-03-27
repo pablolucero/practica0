@@ -3,9 +3,7 @@ package nivel1;
 public class Ejercicio4 {
 
 	public static boolean sonIguales(String a, String b) {
-		// TODO sin usar == porque asi no se comparan Strings
-		// a investigar!
-		return false;
+		return a.equals(b);
 	}
 	
 	public static void main(String[] args) {

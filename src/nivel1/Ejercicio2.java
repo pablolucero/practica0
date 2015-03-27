@@ -3,8 +3,7 @@ package nivel1;
 public class Ejercicio2 {
 
 	public static boolean esMayoroIgualQue(int a, int b) {
-		// TODO
-		return false;
+		return a >= b;
 	}
 
 	public static void main(String[] args) {

@@ -1,10 +1,12 @@
 package nivel1;
 
+import java.util.Arrays;
+
 public class Ejercicio5 {
 	
 	public static int getMenor(int[] a) {
-		// TODO
-		return 0;
+		Arrays.sort(a);
+		return a[0];
 	}
 	
 	public static void main(String[] args) {

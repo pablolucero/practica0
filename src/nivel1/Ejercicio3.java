@@ -6,7 +6,7 @@ public class Ejercicio3 {
 	
 	// 1 inch = 0.0277777778 yards
 	public static void inchToYard(int inch) {
-		// TODO
+		System.out.println(inch * 0.0277777778);
 	}
 
 	public static void main(String[] args) {
